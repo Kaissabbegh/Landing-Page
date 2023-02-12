@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+.nav{
+    display: flex;
+}
+.nav>div{
+    flex: 1;
+    
+}
+.links {
+    display: flex;
+    padding: 15px 100px 50px;
+    
+    text-align: center;
+}
+.links>div{
+    flex: 1;
+    
+}
+.logo{
+    padding: 15px 200px 50px;
+}
+
+.container{
+    display: flex;
+    
+    padding: 100px 0px;
+}
+.container>div{
+    padding: 20px;
+    flex:1;
+    
+}
+.left{
+    margin: 0px 0px 5px 200px;
+
+    
+}
+.left h1{
+    font-size: 48px;
+    padding: 5px 50px;
+}
+.left p{
+    font-size: 18 px;
+    color: #E5E7EB;
+    padding: 5px 50px;
+}
+.left button{
+    margin: 5px 50px ;
+    padding: 7px 40px;
+    background-color: #3882F6;
+    color: #f9faf8;
+}
+.right{
+    background-color: grey;
+    margin: 0px 200px 5px 0px;
+    text-align: center;
+    
+    justify-content: center;
+    
+
+}
+.right p{
+    padding: 100px ;
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.information h1{
+    margin: 30px 0px 0px 0px;
+    font-size: 36px;
+    color: #1f2937;
+    
+}
+.cards-img{
+    padding: 70px;
+    border:3px solid #3882F6;
+    border-radius: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    margin: 50px 600px;
+    padding-bottom: 90px; 
+}
+
+.cards-text{
+    padding-top: 15px;
+    font-size: 18px;
+    
+}
+.quote{
+    background-color: #E5E7EB;
+    
+}
+.quote p{
+    font-size: 36px;
+    color: #1f2937;
+    padding: 200px 200px 0px 200px;
+}
+.quote h3{
+    padding-bottom: 150px;
+    text-align: right;
+    padding-right: 20%;
+}
+
+.action{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    margin: 150px;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.action h3{
+    color: #f9faf8;
+}
+.button{
+    margin: 5px 5px ;
+    padding: 7px 40px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 3px solid #f9faf8;
+    border-radius: 10px;
+}
+.action-left{
+    flex: 2;
+}
+
+footer{
+    background-color: #1f2937;
+    display: flex;
+    color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
+
+}
+footer p{
+    flex: 1;
+}
