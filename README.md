@@ -4,8 +4,8 @@ This repository contains the source code for a landing page built using HTML and
 
 ## Preview
 
-![Landing Page Preview](landing page.png)
-![Landing Page Preview](colors and font.png)
+![Landing Page Preview](landingpage.png)
+![Landing Page Preview](colorsandfont.png)
 
 ## Technologies Used
 
